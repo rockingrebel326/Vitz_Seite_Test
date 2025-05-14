@@ -1,0 +1,95 @@
+﻿/*A. Richter, Februar 2020,  Layout Neubau Vitzthum-Gymnasium*/
+/*allgemeine Syntax für Gestaltung mit CSS:
+  Selektor {
+     Eigenschaft: Wert;
+  }  */ 
+
+body {
+  color: #f0f0f0; 					/*Schriftfarbe grau 94*/
+  background-color: #505030; 		/*Hintergrundfarbe dunkelgrau*/
+  font-family: sans-serif;  		/*Schriftart sans-serif*/
+  font-size: medium; 				/*Schriftgröße*/
+  text-align: left; 				/*linksbündig*/
+}
+
+/*Gestaltung der Kopfzeile*/
+header, footer{
+  padding: 5px;
+  margin: 10px;
+  margin-left: 30px;
+  margin-right: 30px;  
+  background-color: #FFC125;		/*Goldenrod1*/
+  color: #6B6950;					/*navy*/
+  font-family: sans-serif;  	  			/*sans-serif*/
+  font-size: medium;  				/*Schriftgröße*/
+  text-align: center;  				/*zentriert*/
+
+}
+/*Gestaltung de Navigationsbereiches*/
+nav{
+  padding: 10px;
+  margin: 5px;
+  margin-left:30px;
+  margin-right:30px;
+  background-color: #FFE100;	/*Hintergrundfarbe gold*/	
+  color: #6B6950;				/*Schriftfarbe: LightPink4*/
+  font-family: sans-serif; 		/*sans-serif*/
+  font-size: medium;  			/*Schriftgröße*/
+  text-align:left;  			/*linksbündig*/
+}
+
+/*Gestaltung des Hauptinhaltes*/
+main{ 		
+  padding: 7px; 
+  background-color: #FFFACD;		/*Hintergrund: LightGoldenrod1*/
+  color: #6B6950;					/*Schriftfarbe: dunkelkhaki*/
+  font-family: sans-serif;  		/*sans-serif*/
+  font-size: medium;  				/*Schriftgröße*/
+  text-align: left;  				/*linksbündig*/
+}
+
+/*Eigenschaften für alle Verweise*/
+a{text-decoration: none;} 			/*Unterstreichung entfernen*/
+
+/*Verweise im Navigationsbereich*/
+nav a:link {color: #D26C6C;} 		/*indianred hell*/
+nav a:hover{color: #A44949;			/*indianred dunkel*/
+		   font-size: 110%;}
+nav a:active{color: #A44949;		/*indianred dunkel*/
+		   font-size: 110%;}
+	nav a:focus{color: #A44949; 	/*Schriftfabre beim fokusieren: indianred dunkel*/
+			   font-size: 110%;}		   
+	nav li{list-style-type: none;}  /*ohne Aufzählungspunkte*/
+
+/*Verweise im Hauptinhalt*/
+main a:link {color: #D26C6C;} 	/*indianred hell*/
+main a:hover{color: #A44949;		/*indianred dunkel*/
+		   font-size: 110%;}
+main a:active{color: #A44949;	/*indianred dunkel*/
+		   font-size: 110%;}
+main a:focus{color: #A44949; 	/*Schriftfabre beim fokusieren: indianred dunkel*/
+		   font-size: 110%;}		   
+		   
+/*Verweise in der Fußzeile*/
+footer a:link {color: #D26C6C;} 	/*indianred hell*/
+footer a:hover{color: #A44949;		/*indianred dunkel*/
+		   font-size: 110%;}
+footer a:active{color: #A44949;		/*indianred dunkel*/
+		   font-size: 110%;}
+footer a:focus{color: #A44949; 		/*Schriftfabre beim fokusieren: indianred dunkel*/
+		   font-size: 110%;}
+		   
+/*Gestaltung einer Überschrift*/
+h1{						/*Hauptüberschrift*/
+	color: #BB0000;  	/*Schriftfarbe: dunkleres Rot*/
+	font-size: 160%		/*Schriftgröße 160%*/
+}
+ h2{					/*Teilüberschrift*/
+	color: #E85500;  	/*Schriftfarbe: dunkleres Rot*/
+	font-size: 120% 	/*Schriftgröße 120%*/
+ }
+
+/*Tabelle*/
+table{
+  color: #6B6950; 		/*Schriftfarbe: dunkelkhaki*/
+}
